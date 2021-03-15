@@ -1,0 +1,294 @@
+.header {
+    background-color: rgb(0, 0, 0);
+}
+
+.logo-nome h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.logo-nome p {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    opacity: 10%;
+    font-size: 6rem;
+    text-align: center;
+    margin: 0;
+}
+
+.list-header a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    transition: 0.6s;
+}
+
+.list-icones-item img {
+    width: 1.7rem;
+    padding-left: 0.5rem;
+}
+
+.equipe {
+    width: 230px;
+    height: 180px;
+}
+
+.img-equipe {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    z-index: 5;
+}
+
+.shape-completo {
+    width: 230px;
+    height: 180px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.shape {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: solid 2px;
+    border-color: white;
+    margin-left: 35px;
+}
+
+.shape-pequeno a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shape-pequeno {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 4;
+    transition-delay: 0.8s;
+}
+
+.shape-pequeno:hover {
+    background: linear-gradient(90deg, #d0217e 0%, rgba(109, 44, 144, 0.97) 100%);
+}
+
+.shape-pequeno.a {
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+.shape-pequeno.b {
+    margin-left: 196px;
+    margin-top: 77px;
+}
+
+.shape-pequeno.c {
+    margin-left: 170px;
+    margin-top: 140px;
+}
+
+.shape-pequeno img {
+    width: 1rem;
+}
+
+.bg-carrousel {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.548);
+    z-index: 20;
+}
+
+.bg-carrousel span {
+    position: absolute;
+    font-size: 50rem;
+    opacity: 10%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.texto h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 3rem;
+}
+
+.texto .pg {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+/* fim home */
+
+.container-sobre-mim {
+    margin-top: 100px;
+    height: 100vh;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-sobre-mim h2 {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-sobre-mim span {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 20%;
+}
+
+.sobre-mim h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1rem;
+}
+
+.texto p {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+.texto img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.gif img {
+    width: 200px;
+}
+
+.skills {
+    background: #6819e8;
+    background: -moz-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%);
+    background: -webkit-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%);
+    background: linear-gradient(to right, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%);
+    display: flex;
+    justify-content: center;
+    height: 750px;
+}
+
+.skills .titulo h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.skill-item {
+    width: 20rem;
+    height: 0.5rem;
+    background-color: rgba(128, 128, 128, 0.404);
+}
+
+.skill-item p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.skill.html {
+    width: 10rem;
+    height: 0.5rem;
+    background-color: black;
+}
+
+.skill.css {
+    position: relative;
+    width: 8rem;
+    height: 0.5rem;
+    background-color: black;
+}
+
+.list-skill.b,
+.list-skill.c,
+.list-skill.d {
+    margin-top: 2rem;
+}
+
+.contato .titulo h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.contato form textarea {
+    border: solid 1px;
+    border-color: rgba(128, 128, 128, 0.432);
+}
+
+.contato form button {
+    background-color: black;
+}
+
+.contato form button:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+@media (max-width: 575.98px) {
+    .main {
+        width: 100vw;
+    }
+    .bg-carrousel {
+        width: 100vw;
+    }
+    .bg-carrousel span {
+        font-size: 30rem;
+    }
+    .texto h1 {
+        font-size: 2rem;
+    }
+    .texto p {
+        font-size: 1rem;
+    }
+    .equipe {
+        transform: scale(0.7);
+        margin-left: 2rem;
+    }
+    .sobre-mim-texto {
+        flex-direction: column-reverse;
+    }
+    .skills {
+        margin-top: 22rem;
+        justify-content: center;
+        height: 600px;
+    }
+    .skills h2 {
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+    .list-skill {
+        flex-direction: column;
+    }
+    .skill-item {
+        margin-top: 2rem;
+    }
+    .contato form {
+        width: 90vw;
+    }
+    .contato form textare {}
+}
