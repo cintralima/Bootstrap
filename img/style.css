@@ -275,7 +275,8 @@
     .skills {
         margin-top: 22rem;
         justify-content: center;
-        height: 600px;
+        height: 1150px;
+        padding-top: 7rem;
     }
     .skills h2 {
         padding: 0;
@@ -286,6 +287,9 @@
     }
     .skill-item {
         margin-top: 2rem;
+    }
+    .contato {
+        margin-top: 10rem;
     }
     .contato form {
         width: 90vw;
