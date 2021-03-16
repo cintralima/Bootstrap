@@ -1,5 +1,6 @@
 .header {
     background-color: rgb(0, 0, 0);
+    transition: 1500ms ease;
 }
 
 .logo-nome h2 {
@@ -249,6 +250,20 @@
     border-color: black;
 }
 
+.header.dark {
+    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: screen;
+}
+
+#lottie {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 14rem;
+    height: 7rem;
+    z-index: 99;
+}
+
 @media (max-width: 575.98px) {
     .main {
         width: 100vw;
@@ -294,5 +309,7 @@
     .contato form {
         width: 90vw;
     }
-    .contato form textare {}
+    #lottie {
+        display: none;
+    }
 }
